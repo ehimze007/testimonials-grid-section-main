@@ -94,3 +94,37 @@ section article p:nth-child(2) {
 }
 
 /* Responsive styling *******/
+
+@media screen and (max-width: 760px) {
+  body section {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .daniel-clifford-profile {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .jonathan-walters-profile {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .kira-white-profile {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .jeanette-harmon-profile {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .patrick-abrams-profile {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .attribution {
+    text-align: center;
+  }
+}
